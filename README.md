@@ -1,25 +1,14 @@
-# _Beep Boop_
+# _Address BOok_
 
-#### _Beep Boop_, August 17, 2018_
+#### _Address BOok_, August 20, 2018_
 
-#### By _**Brian Nelson**_
+#### By _**Brian Nelson & Chan Lee**_
 
 ## Description
 
-_Simple webage that takes a user number input and has a robot respond to it._
+_Simple webage that takes user first name and last name and displays it as an address book entry._
 
-## Spec
 
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| **The program returns the same user input back.** | Input: "3" | Output: "3" |
-| **The program only allows numeric inputs.** | Input: "hello" | Output: "beepboop???" |
-| **The program replaces 0 with "Beep!".** | Input: "0" | Output: "Beep!" |
-| **The program replaces 1 with "Boop!".** | Input: "1" | Output: "Boop" |
-| **The program returns a response of "I'm sorry, Dave. I'm afraid I can't do that." if the user input is divisible by 3.** | Input: "9" | Output: "I'm sorry, Dave. I'm afraid I can't do that." |
-
-## Spec
-  View at: https://nelsonsbrian.github.io/beep-boop/
 
 ## Setup/Installation Requirements
 
@@ -32,6 +21,7 @@ _None._
 ## Support and contact details
 
 _nelsonbrian@gmail.com_
+_chanethanleegmail.com+
 
 ## Technologies Used
 
@@ -45,6 +35,6 @@ GitHub_
 
 ### License
 
-*This is licensed under MIT.*a
+*This is licensed under MIT.*
 
-Copyright (c) 2018 **_Brian Nelson_**
+Copyright (c) 2018 **_Brian Nelson & Chan Lee_**
