@@ -8,44 +8,30 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Beep Boop</title>
+    <title>Address Book</title>
   </head>
   <body>
     <div class="container">
-      <h1 class="animated bounce">Beep Boop</h1>
-      <div >
+      <h1 class="animated bounce">Address Book</h1>
+      <div>
         <div class="row">
-          <div class="col-md-4 human">
-            <div class="result">
-
-              <div class="human imgBox">
-                <img src='img/human.png' alt='photo of man'>
-              </div>
-              <div class="dialogueBox humanSpeak">
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <form id="toTranslate">
+          <div class="col-md-6">
+            <h2>Add a contact:</h2>
+            <form id="new-contact">
               <div class="form-group">
-                <label for="inputTxt">Input text to see what the robot says:</label>
-                <input id="inputTxt" type="text">
+                <label for="new-first-name">First Name</label>
+                <input type="text" class="form-control" id="new-first-name">
               </div>
               <div class="form-group">
-                <label for="inputName">Who is talking to the robot (name):</label>
-                <input id="inputName" type="text">
+                <label for="new-last-name">Last Name</label>
+                <input type="text" class="form-control" id="new-last-name">
               </div>
-              <button type="submit" class="btn">See Robot Translation</button>
+              <button type="submit" class="btn">Add</button>
             </form>
-          </div>
-          <div class="col-md-4 robot">
-            <div class="result">
-              <div class="robot imgBox">
-                <img src='img/robot.png' alt='photo of robt'>
-              </div>
-              <div class="dialogueBox robotSpeak">
-              </div>
-            </div>
+            <h2>Contacts:</h2>
+            <ul id="contacts">
+
+            </ul>
           </div>
         </div>
       </div>
